@@ -40,7 +40,7 @@
                 android:layout_marginStart="50sp"
                 android:layout_marginLeft="50sp"
                 android:hint="First Name"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium">
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
         </TableRow>
 
         <TableRow>
@@ -166,6 +166,7 @@
         app:layout_constraintTop_toTopOf="@+id/tableLayout">
 
         <Button
+            android:id="@+id/Save"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Save" />
